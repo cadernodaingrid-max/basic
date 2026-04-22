@@ -131,8 +131,8 @@ h1 {
 
 
 .exercise-image-container {
-    width: 340px;
-    height: 210px;
+    width: 450px;
+    height: 330px;
     border-radius: 12px;
     overflow: hidden;
     flex-shrink: 0;
