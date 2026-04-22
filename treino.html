@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino em Andamento | Gym Flow</title>
+    <link rel="stylesheet" href="subestilo.css">
+</head>
+<body>
+    <div class="container">
+        <header class="workout-header">
+            <a href="index.html" class="btn-back">← Voltar</a>
+            <h1 id="workout-title">Carregando...</h1>
+            <div id="workout-duration" class="time-est"></div>
+        </header>
+
+        <section class="warmup-display">
+            <h2>🔥 Aquecimento</h2>
+            <p id="warmup-content">Carregando aquecimento...</p>
+        </section>
+
+<div class="info-treino" style="padding: 0 10px;">
+    <p id="main-part-content" style="font-weight:600; color:#0ea5e9; margin-bottom:10px;"></p>
+    <p id="cool-down-content" style="font-style:italic; color:#64748b; font-size:0.9rem; margin-bottom:20px;"></p>
+</div>
+
+        <hr class="separator">
+	<h4 class="main_part"><b>Parte Principal (25 min):</b> 2 a 3 séries de 8 a 12 repetições</h4>
+        <main class="workout-list-container">
+            <ul id="exercise-list" class="exercise-list">
+                </ul>
+        </main>
+
+	<section class="arref-display">
+            <h2>❄️ Alongamento e finalização</h2>
+            <p id="arref-content">Bicicleta em ritmo muito lento e alongamento leve.</p>
+        </section>
+
+        <footer>
+            <button id="finish-workout" class="btn-finish" onclick="window.location.href='index.html'">Finalizar Treino</button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
