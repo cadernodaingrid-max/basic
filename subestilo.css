@@ -131,7 +131,7 @@ h1 {
 
 
 .exercise-image-container {
-    width: 450px;
+    width: 400px;
     height: 330px;
     border-radius: 12px;
     overflow: hidden;
@@ -230,10 +230,6 @@ h1 {
     }
     h1 {
         font-size: 1.3rem;
-    }
-    .exercise-image-container {
-    width: 350px;
-    height: 250px;
     }
 }
 
