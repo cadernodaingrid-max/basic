@@ -131,14 +131,14 @@ h1 {
 
 
 .exercise-image-container {
-    width: 70px;
-    height: 70px;
+    width: 140px;
+    height: 140px;
     border-radius: 8px;
     overflow: hidden;
     flex-shrink: 0;
     background-color: #f1f5f9;
     border: 1px solid #e2e8f0;
-    display: block; /* Garante que comece visível */
+    display: block;
 }
 
 .exercise-img {
