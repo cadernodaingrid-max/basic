@@ -231,5 +231,9 @@ h1 {
     h1 {
         font-size: 1.3rem;
     }
+    .exercise-image-container {
+    width: 400px;
+    height: 310px;
+    }
 }
 
