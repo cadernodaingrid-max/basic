@@ -136,10 +136,7 @@ h1 {
     border-radius: 12px;
     overflow: hidden;
     flex-shrink: 0;
-    background-color: #f1f5f9;
-    border: 1px solid #e2e8f0;
     display: block;
-    margin-right: 20px;
 }
 
 .exercise-img {
@@ -159,7 +156,12 @@ h1 {
 .exercise-content {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex: 1;
+}
+
+.exercise-list li:has(input:checked) .exercise-content {
+    justify-content: flex-start;
 }
 
 .main_part {
@@ -184,12 +186,14 @@ h1 {
     font-weight: 500;
     line-height: 1.4;
     transition: all 0.3s ease;
+    display: none;
 }
 
 
 .exercise-list input:checked + span {
     text-decoration: line-through;
     color: #cbd5e1;
+    display: block;
 }
 
 
