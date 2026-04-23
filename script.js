@@ -4,10 +4,10 @@ const treinos = {
         "tempo": "40 min",
         "aquecimento": "10 min: Bicicleta ergométrica (ritmo leve/moderado) para elevar a temperatura corporal.",
         "exercicios": [
-            { "nome": "Agachamento (Dominância de Joelho)", "img": "assets/exercicios/agachamento.webp" },
-            { "nome": "Desenvolvimento de Ombros (Empurre Vertical)", "img": "assets/exercicios/desenvolvimento.webp" },
+            { "nome": "Agachamento", "img": "assets/exercicios/agachamento.webp" },
+            { "nome": "Desenvolvimento de Ombros", "img": "assets/exercicios/desenvolvimento.webp" },
             { "nome": "Elevação de Quadril (Ponte)", "img": "assets/exercicios/elevacao-quadril.webp" },
-            { "nome": "Apoio de Frente na Parede/Banco", "img": "assets/exercicios/apoio.webp" }
+            { "nome": "Push ups na Parede/Banco", "img": "assets/exercicios/apoio.webp" }
         ]
     },
     "2": {
@@ -15,10 +15,10 @@ const treinos = {
         "tempo": "40 min",
         "aquecimento": "10 min: Bicicleta ergométrica (ritmo leve/moderado) para elevar a temperatura corporal.",
         "exercicios": [
-            { "nome": "Levantamento Terra Funcional", "img": "assets/exercicios/terra.webp" },
-            { "nome": "Remada Unilateral com Halter (Puxada Horizontal)", "img": "assets/exercicios/remada-unilateral.webp" },
+            { "nome": "Levantamento Terra", "img": "assets/exercicios/terra.webp" },
+            { "nome": "Remada Unilateral com Halter", "img": "assets/exercicios/remada-unilateral.webp" },
             { "nome": "Perdigueiro", "img": "assets/exercicios/perdigueiro.webp" },
-            { "nome": "Stiff (Extensores de Quadril)", "img": "assets/exercicios/stiff.webp" }
+            { "nome": "Stiff", "img": "assets/exercicios/stiff.webp" }
         ]
     },
     "3": {
@@ -26,10 +26,10 @@ const treinos = {
         "tempo": "40 min",
         "aquecimento": "10 min: Bicicleta ergométrica (ritmo leve/moderado) para elevar a temperatura corporal.",
         "exercicios": [
-            { "nome": "Afundo Estático (Base Anteroposterior)", "img": "assets/exercicios/afundo.webp" },
+            { "nome": "Afundo", "img": "assets/exercicios/afundo.webp" },
             { "nome": "Remada em Pé com Barra", "img": "assets/exercicios/remada-barra.webp" },
             { "nome": "Elevação Lateral de Ombros", "img": "assets/exercicios/elevacao-lateral.webp" },
-            { "nome": "Prancha Ventral (Core)", "img": "assets/exercicios/prancha.webp" }
+            { "nome": "Prancha Ventral", "img": "assets/exercicios/prancha.webp" }
         ]
     },
     "4": {
@@ -38,8 +38,8 @@ const treinos = {
         "aquecimento": "10 min: Bicicleta ergométrica (ritmo leve/moderado) para elevar a temperatura corporal.",
         "exercicios": [
             { "nome": "Agachamento Sumô", "img": "assets/exercicios/sumo.webp" },
-            { "nome": "Floor Press (Supino no Chão)", "img": "assets/exercicios/floor-press.webp" },
-            { "nome": "Rosca Direta (Kit)", "img": "assets/exercicios/rosca-direta.webp" },
+            { "nome": "Supino no Chão", "img": "assets/exercicios/floor-press.webp" },
+            { "nome": "Rosca Direta", "img": "assets/exercicios/rosca-direta.webp" },
             { "nome": "Abdominal Infra", "img": "assets/exercicios/infra.webp" }
         ]
     }
